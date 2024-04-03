@@ -1,0 +1,81 @@
+h4{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: black;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(2,17,30);
+}
+
+    .form_container{
+        text-align: center;
+        margin-top: 20px;
+        width: 80vw;
+        border-radius: 10px;
+        height: 80vh;
+        padding: 10px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: antiquewhite;
+    }
+
+        .form_card{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+            width: 50vh;
+            background-color: #99dec0;
+            padding: 25px 25px 25px 25px;
+            border-radius: 10px;
+        }
+                .create_form{
+                    background-color: #99dec0;
+                    display: none;
+                }
+
+                .update_form{
+                    background-color: #dfcce8;
+                    display: none;
+                }
+
+            form input{
+                
+                padding: 10px;
+                border-radius: 8px;
+                border: 1px solid gray;
+            }
+
+            
+
+                .create_form button{
+                    background-color: #99dec0;
+                }
+
+                .update_form button{
+                    background-color: #dfcce8;
+                }
+            
+            .table_card{
+                margin-top: 50px;
+                background-color: #e6de85;
+                padding: 25px 25px 25px 25px;
+                border-radius: 10px;
+                display: block;
+            }    
+            
+            table{
+                width: 100%;
+                margin-top: 40px;
+            }
